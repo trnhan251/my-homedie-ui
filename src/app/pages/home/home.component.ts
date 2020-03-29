@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HeaderModule } from '../../shared/components';
 
 @Component({
   templateUrl: 'home.component.html',
