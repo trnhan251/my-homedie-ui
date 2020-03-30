@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import { HeaderModule } from '../shared/components';
+import {BannerModule, HeaderModule} from '../shared/components';
 import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
@@ -7,7 +7,8 @@ import { HomeComponent } from './pages/home/home.component';
     HomeComponent
   ],
   imports: [
-    HeaderModule
+    HeaderModule,
+    BannerModule
   ],
   exports: [
     HomeComponent

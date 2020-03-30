@@ -1,53 +1,4 @@
 /*---------- Header start ----------*/
-.rle_banner_wrapper{
-	float:left;
-	width:100%;
-	background-image:url(../../../../assets/images/banner/bnr1.jpg);
-	background-position:center center;
-	background-repeat:no-repeat;
-	background-size:cover;
-	height:600px;
-    position: relative;
-}
-.rle_banner_wrapper.style_2{
-	height:800px;
-	background-image:url(../../../../assets/images/banner/bnr2.jpg);
-}
-.rle_banner_wrapper.style_3{
-	height:950px;
-	background-image:url(../../../../assets/images/banner/bnr3.jpg);
-}
-.rle_banner_wrapper.style_4{
-    height: auto;
-    background-image: none;
-    background-color: #ffffff;
-}
-.rle_header_wrapper{
-	float:left;
-	width:100%;
-	padding:20px 0px;
-	background-color:rgba(0, 0, 0, 0.2);
-}
-.rle_header_wrapper.style_3{
-	padding:20px 0px 0px 0px;
-	background-color:transparent;
-}
-.rle_header_wrapper.style_2{
-	background-color:#0f1c2f;
-}
-.rle_header_wrapper.style_4{
-	background-color:#ffffff;
-}
-.rle_header_wrapper.style_5{
-	background-color:#374255;
-}
-.rle_header_wrapper .rle_logo{
-	float:left;
-	width:100%;
-}
-.rle_header_wrapper.style_2 .rle_logo{
-	padding-top:15px;
-}
 .rle_top_header{
 	float:right;
 	width:auto;
@@ -87,29 +38,23 @@
 	-moz-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-.rle_header_wrapper .rle_main_menu{
+ .rle_main_menu{
 	float:left;
 	width:calc(100% - 110px);
 	padding-top: 5px;
 }
-.rle_header_wrapper .rle_signin{
+ .rle_signin{
 	float:right;
 	width:auto;
     padding-top: 5px;
 	position:relative;
 }
-.rle_header_wrapper.style_2 .rle_main_menu{
-	padding-top:0px;
-}
-.rle_header_wrapper.style_2 .rle_signin{
-	padding-top:0px;
-}
-.rle_header_wrapper .rle_signin a.rle_btn{
+ .rle_signin a.rle_btn{
     height: 35px;
     line-height: 30px;
 	font-size:14px;
 }
-.rle_header_wrapper .rle_signin a.rle_btn:focus{
+ .rle_signin a.rle_btn:focus{
     text-decoration:none;
 	color:#ffffff;
 }
@@ -330,18 +275,18 @@
 .rle_menu_btn{
 	display:none;
 }
-.rle_header_wrapper .rle_main_menu ul{
+ .rle_main_menu ul{
     float: right;
     width: auto;
     margin: 0px;
     padding: 0px;
 }
-.rle_header_wrapper .rle_main_menu ul li{
+ .rle_main_menu ul li{
 	float:left;
 	list-style:none;
 	position:relative;
 }
-.rle_header_wrapper .rle_main_menu ul li a{
+ .rle_main_menu ul li a{
     text-decoration: none;
     color: #ffffff;
     font-size: 14px;
@@ -351,10 +296,7 @@
     padding: 8px 0px;
     display: block;
 }
-.rle_header_wrapper.style_4 .rle_main_menu ul li a{
-	color:#303030;
-}
-.rle_header_wrapper .rle_main_menu ul li a:after{
+ .rle_main_menu ul li a:after{
 	content: "";
     position: absolute;
     top: 100%;
@@ -369,10 +311,10 @@
 	-moz-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-.rle_header_wrapper .rle_main_menu ul li a:after{
+ .rle_main_menu ul li a:after{
 	border-bottom: 2px solid #00aeef;
 }
-.rle_header_wrapper .rle_main_menu ul li a:hover:after{
+ .rle_main_menu ul li a:hover:after{
     width: 100%;
 	-webkit-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
@@ -380,7 +322,7 @@
 	-moz-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-.rle_header_wrapper .rle_main_menu ul li:hover ul.sub-menu{
+ .rle_main_menu ul li:hover ul.sub-menu{
     opacity: 1;
     visibility: visible;
     -webkit-transform: -webkit-translateY(0px);
@@ -394,7 +336,7 @@
 	-moz-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-.rle_header_wrapper .rle_main_menu ul li ul.sub-menu{
+ .rle_main_menu ul li ul.sub-menu{
 	position: absolute;
     width: 150px;
     background-color: #ffffff;
@@ -419,11 +361,11 @@
     -ms-box-shadow: 0px 3px 15px -5px #000000;
     box-shadow: 0px 3px 15px -5px #000000;
 }
-.rle_header_wrapper .rle_main_menu ul li ul.sub-menu li{
+ .rle_main_menu ul li ul.sub-menu li{
 	width:100%;
 	margin:0px;
 }
-.rle_header_wrapper .rle_main_menu ul li ul.sub-menu li a{
+ .rle_main_menu ul li ul.sub-menu li a{
 	color: #272727;
     margin: 0px;
     padding: 5px 20px;
@@ -433,7 +375,7 @@
 	-moz-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-.rle_header_wrapper .rle_main_menu ul li ul.sub-menu li a:hover{
+ .rle_main_menu ul li ul.sub-menu li a:hover{
 	color: #ffffff;
 	background-color:#00aeef;
 	-webkit-transition: all 0.3s ease-out;
@@ -442,7 +384,7 @@
 	-moz-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-.rle_header_wrapper .rle_main_menu ul li ul.sub-menu li a:after{
+ .rle_main_menu ul li ul.sub-menu li a:after{
 	display:none;
 }
 .rle_banner_text{
@@ -457,10 +399,6 @@
 	color:#ffffff;
 	text-transform:uppercase;
 }
-.rle_banner_text.style_2 h1{
-	font-size:48px;
-	text-transform:capitalize;
-}
 .rle_banner_text h1 span{
 	color:#eeb32a;
 }
@@ -470,9 +408,6 @@
 	color:#ffffff;
 	margin:0px;
 	font-size:18px;
-}
-.rle_banner_text.style_2 p{
-	font-size:16px;
 }
 .rle_searchform_wrapper{
 	float:left;
@@ -489,19 +424,7 @@
 	width:100%;
     margin-top: -140px;
 }
-.rle_searchform_tabs.style_2{
-    margin-top: 20px;
-	text-align:center;
-}
-.rle_searchform_tabs.style_2 ul.nav-tabs{
-    display:inline-block;
-	margin-bottom:20px;
-}
-.rle_searchform_tabs.style_3{
-	float:left;
-	width:100%;
-    margin-top: 0px;
-}
+
 .rle_searchform_tabs .tab-content{
 	float:left;
 	width:100%;
@@ -528,9 +451,6 @@
     background-color: rgba(255, 255, 255, 0.5);
 	font-size:16px;
 	padding:13px 40px;
-}
-.rle_searchform_tabs.style_2 ul.nav-tabs > li > a {
-    border-radius: 3px;
 }
 .rle_searchform_tabs ul.nav > li > a:hover, .rle_searchform_tabs ul.nav > li > a:focus {
     text-decoration: none;
@@ -586,9 +506,6 @@
     border: 1px solid #00aeef;
     background: #00aeef;
 }
-.rle_searchform_tabs.style_2 .rle_searchform_box{
-	padding:0px;
-}
 .rle_searchform_box input, .rle_searchform_box select{
 	float:left;
 	width:100%;
@@ -598,32 +515,7 @@
 	border:1px solid #e1e1e1;
 	margin-bottom: 30px;
 }
-.rle_searchform_tabs.style_2 .rle_searchform_box input{
-	width:calc(100% - 124px);
-	margin:0px;
-}
-.rle_searchform_tabs.style_2 .rle_searchform_box .rle_btn{
-	height:45px;
-	line-height:43px;
-	font-size:15px;
-	text-transform:capitalize;
-}
-.rle_searchform_tabs.style_2 .rle_searchform_box .rle_btn i{
-	margin-right:10px;
-}
-.rle_searchform_box.style_3{
-	padding:0px;
-}
-.rle_searchform_box label{
-	font-weight:normal;
-	color:#888888;
-}
-.rle_searchform_tabs.style_3 .rle_btn{
-	float:left;
-	width:100%;
-    height: 45px;
-    line-height: 43px;
-}
+
 .rle_searchform_btn{
     float: left;
     width: 100%;
@@ -742,49 +634,7 @@
 	color:#ffffff;
 	text-transform:uppercase;
 }
-.rle_banner_wrapper.style_3 ul.nav-tabs{
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    right: 0;
-    margin: 0px auto;
-    width: 1170px;
-}
-.rle_banner_wrapper.style_3 ul.nav-tabs li{
-	width:33.3333333333%;
-}
-.rle_banner_wrapper.style_3 ul.nav-tabs li a{
-	border-radius:0px;
-	padding:30px 0px 30px 20px;
-	border-color: rgba(51, 51, 51, 0.6);
-	background-color: rgba(51, 51, 51, 0.6);
-	-webkit-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.rle_banner_wrapper.style_3 ul.nav-tabs.nav > li > a:hover, .rle_banner_wrapper.style_3 ul.nav-tabs.nav > li > a:focus{
-    border-color: #00aeef;
-	background-color: #00aeef;
-	color:#ffffff;
-	-webkit-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.rle_banner_wrapper.style_3 ul.nav-tabs > li.active > a, .rle_banner_wrapper.style_3 ul.nav-tabs > li.active > a:hover, .rle_banner_wrapper.style_3 ul.nav-tabs > li.active > a:focus {
-    color: #ffffff;
-    background-color: #00aeef;
-    border: 1px solid #00aeef;
-    border-bottom-color: transparent;
-	-webkit-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
+
 .rle_banner_tabslist_info{
     display: inline-block;
     width: 100%;

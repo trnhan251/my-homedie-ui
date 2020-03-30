@@ -1,34 +1,49 @@
-.logos-container {
-  margin: 20px 0 40px 0;
-  text-align: center;
-  svg {
-    display: inline-block;
-  }
+.rle_banner_wrapper{
+	float:left;
+	width:100%;
+	background-image:url(../../../../assets/images/banner/bnr1.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:600px;
+    position: relative;
 }
-
-.devextreme-logo {
-  width: 200px;
-  height: 34px;
-  margin-bottom: 13px;
+.rle_banner_wrapper.style_2{
+	height:800px;
+	background-image:url(../../../../assets/images/banner/bnr2.jpg);
 }
-
-.angular-logo {
-  width: 220px;
-  height: 62px;
+.rle_banner_wrapper.style_3{
+	height:950px;
+	background-image:url(../../../../assets/images/banner/bnr3.jpg);
 }
-
-.plus {
-  margin: 15px 10px;
-  width: 22px;
-  height: 22px;
+.rle_banner_wrapper.style_4{
+    height: auto;
+    background-image: none;
+    background-color: #ffffff;
 }
-
-:host-context(.screen-x-small) .logos-container {
-  svg {
-    width: 100%;
-    display: block;
-    &.plus {
-      margin: 0;
-    }
-  }
+.rle_header_wrapper{
+	float:left;
+	width:100%;
+	padding:20px 0px;
+	background-color:rgba(0, 0, 0, 0.2);
+}
+.rle_header_wrapper.style_3{
+	padding:20px 0px 0px 0px;
+	background-color:transparent;
+}
+.rle_header_wrapper.style_2{
+	background-color:#0f1c2f;
+}
+.rle_header_wrapper.style_4{
+	background-color:#ffffff;
+}
+.rle_header_wrapper.style_5{
+	background-color:#374255;
+}
+.rle_header_wrapper .rle_logo{
+	float:left;
+	width:100%;
+}
+.rle_header_wrapper.style_2 .rle_logo{
+	padding-top:15px;
 }
