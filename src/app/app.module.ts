@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { FooterModule, LoginFormModule, HeaderModule } from './shared/components';
+import { FooterModule, HeaderModule } from './shared/components';
 import { AuthService, ScreenService, AppInfoService } from './shared/services';
 import { AppRoutingModule } from './app-routing.module';
 import {LayoutModule} from './layouts/layout.module';
@@ -14,7 +14,6 @@ import {LayoutModule} from './layouts/layout.module';
   imports: [
     BrowserModule,
     FooterModule,
-    LoginFormModule,
     LayoutModule,
     AppRoutingModule,
     HeaderModule

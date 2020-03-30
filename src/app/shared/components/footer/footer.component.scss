@@ -1,9 +1,112 @@
-@import "../../../../themes/generated/variables.base.scss";
-
-:host {
-  display: block;
-  color: rgba($base-text-color, alpha($base-text-color) * 0.7);
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  padding-top: 20px;
-  padding-bottom: 24px;
+.rle_footer_wrapper{
+	float:left;
+	width:100%;
+	background-image:url(../../../../assets/images/banner/ftr_bg.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.rle_top_footer{
+	float:left;
+	width:100%;
+}
+.widget.text-widget{
+    float: left;
+    width: 100%;
+	margin-bottom: 50px;
+}
+.widget.text-widget p.rle_footertext{
+	float:left;
+	width:100%;
+	margin:35px 0px 30px 0px;
+	color:#bdbfc2;
+}
+.widget.text-widget .rle_btn {
+    height: 45px;
+    line-height: 43px;
+	font-size:12px;
+  color: #ffffff;
+}
+.widget.text-widget .widget-title{
+	float:left;
+	width:100%;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:600;
+	margin:0px 0px 25px 0px;
+	text-transform:capitalize;
+}
+.widget.text-widget ul{
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.widget.text-widget ul li{
+	list-style:none;
+	float:left;
+	width:100%;
+	margin-top:13px;
+}
+.widget.text-widget ul li:first-child{
+	margin-top:0px;
+}
+.widget.text-widget ul li a{
+	color:#bdbfc2;
+	text-decoration:none;
+	text-transform:capitalize;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.widget.text-widget ul li a:hover{
+	color:#00aeef;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.widget.text-widget ul li p{
+	float:left;
+	width:100%;
+	color:#bdbfc2;
+	margin:0px;
+	text-transform:capitalize;
+}
+.widget.text-widget ul li p i{
+	padding-right: 10px;
+    padding-bottom: 15px;
+    float: left;
+    font-size: 18px;
+}
+.widget.text-widget ul.rle_social_iicon{
+	margin-top:20px;
+}
+.widget.text-widget ul.rle_social_iicon li{
+	width:auto;
+    margin: 0px;
+    margin-right: 10px;
+}
+.rle_bottom_footer{
+	float:left;
+	width:100%;
+	padding:30px;
+	text-align:center;
+	border-top:1px solid#bdbfc2;
+}
+.rle_bottom_footer p{
+	float:left;
+	width:100%;
+	margin:0px;
+	color:#bdbfc2;
+}
+.rle_bottom_footer p a{
+	color:#00aeef;
+	text-decoration:none;
+}
+.rle_bottom_footer p span{
+	color:#eab945;
 }
