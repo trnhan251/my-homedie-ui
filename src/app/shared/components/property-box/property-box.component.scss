@@ -1,0 +1,239 @@
+.rle_property_infobox{
+	float:left;
+	width:100%;
+	background-color:#ffffff;
+	margin-bottom:30px;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.rle_property_infobox:hover{
+    -webkit-box-shadow: 0px 10px 30px -15px #000000;
+    -moz-box-shadow: 0px 10px 30px -15px #000000;
+    -o-box-shadow: 0px 10px 30px -15px #000000;
+    -ms-box-shadow: 0px 10px 30px -15px #000000;
+    box-shadow: 0px 10px 30px -15px #000000;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.rle_property_infobox_img{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.rle_property_infobox_img img{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.rle_property_infobox_img span{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	padding:8px 20px;
+	font-size:21px;
+	background-color:#f4a42b;
+	color:#ffffff;
+	text-transform:capitalize;
+}
+.rle_property_infobox_img ul{
+	position:absolute;
+	top: 20px;
+    left: 30px;
+    padding: 0px;
+}
+.rle_property_infobox_img ul li{
+	list-style:none;
+	float:left;
+	width:auto;
+	padding:5px 10px;
+	text-transform:uppercase;
+	color:#ffffff;
+	font-size:10px;
+	margin-right:5px;
+}
+.rle_property_infobox_img ul li:last-child{
+	margin-right:0px;
+}
+.rle_property_infobox_details{
+	float:left;
+	width:100%;
+	padding:20px;
+}
+.rle_property_infobox_details.style_2 {
+    padding: 5px 20px 10px 20px;
+}
+.rle_property_infobox_details_header{
+	float:left;
+	width:100%;
+	border-bottom:1px solid #e1e1e1;
+	margin-bottom:10px;
+}
+.rle_property_infobox_details_header.style_2{
+	text-align:center;
+}
+.rle_property_infobox_details_header ul{
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.rle_property_infobox_details_header ul li{
+	list-style:none;
+	float:left;
+	width:auto;
+	padding:5px 10px;
+	text-transform:uppercase;
+	color:#ffffff;
+	font-size:10px;
+	margin-right:5px;
+}
+.rle_property_infobox_details_header ul li:last-child{
+	margin-right:0px;
+}
+.rle_red_clr{
+	background-color:#eb3c48;
+}
+.rle_green_clr{
+	background-color:#63cb16;
+}
+.rle_black_clr{
+	background-color:#333333;
+}
+.rle_property_infobox_details_header h3{
+	float:left;
+	width:100%;
+	margin:10px 0px 3px 0px;
+	font-size:20px;
+	text-transform:capitalize;
+}
+.rle_property_infobox_details_header h3 a{
+	float:left;
+	width:auto;
+	color:#333333;
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.rle_property_infobox_details_header.style_2 h3 a{
+	float:none;
+}
+.rle_property_infobox_details_header h3 a:hover{
+	color:#00aeef;
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.rle_property_infobox_details_header p{
+	float:left;
+	width:100%;
+	color:#695b5b;
+}
+.rle_property_infobox_details_header span{
+	float:left;
+	width:100%;
+    color: #666666;
+    padding: 25px 0px;
+	position:relative;
+}
+.rle_property_infobox_details_header span:before{
+    content: "";
+    position: absolute;
+    background-color: #e1e1e1;
+    width: 80px;
+    height: 1px;
+    left: 0px;
+    top: 7px;
+}
+.rle_property_infobox_details_footer{
+	float:left;
+	width:100%;
+	text-transform:capitalize;
+}
+.rle_property_infobox_details_footer p{
+	float:left;
+	width:170px;
+	color:#666666;
+}
+.rle_property_infobox_details_footer ul{
+    float: left;
+    width: calc(100% - 170px);
+	margin:0px;
+	padding:0px;
+}
+.rle_property_infobox_details_footer ul li{
+	list-style:none;
+	float:left;
+	width:auto;
+	margin-right:10px;
+	color:#666666;
+}
+.rle_property_infobox_details_footer ul li i{
+	margin-right:3px;
+	color:#00aeef;
+}
+.rle_property_infobox_details_pricefooter{
+	float:left;
+	width:100%;
+	padding:10px 0px 0px 0px;
+	border-top:1px solid #e1e1e1;
+}
+.rle_property_infobox_details_pricefooter span{
+	float:left;
+	width:auto;
+	padding:0px;
+	font-size:21px;
+	color:#f4a42b;
+	text-transform:capitalize;
+}
+.rle_property_infobox_details_pricefooter a{
+	float:right;
+	width:auto;
+	text-decoration:none;
+	font-size:15px;
+	color:#666666;
+	text-transform:capitalize;
+	margin-top:5px;
+	margin-right:-10px;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.rle_property_infobox_details_pricefooter a:hover{
+	color:#00aeef;
+	margin-right:0px;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.rle_property_infobox_details_pricefooter a i{
+	color:#ffffff;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.rle_property_infobox_details_pricefooter a:hover i{
+	color:#00aeef;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}

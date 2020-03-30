@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {BannerModule, HeaderModule} from '../shared/components';
 import { HomeComponent } from './pages/home/home.component';
 import {SearchBoxModule} from '../shared/components/search-box/search-box.component';
+import {PropertyBoxModule} from '../shared/components/property-box/property-box.component';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import {SearchBoxModule} from '../shared/components/search-box/search-box.compon
   imports: [
     HeaderModule,
     BannerModule,
-    SearchBoxModule
+    SearchBoxModule,
+    PropertyBoxModule
   ],
   exports: [
     HomeComponent

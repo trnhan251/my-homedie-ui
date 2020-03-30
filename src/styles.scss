@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../node_modules/font-awesome/css/font-awesome.css';
 @import '../node_modules/alertifyjs/build/css/alertify.min.css';
 @import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
 
@@ -106,4 +107,64 @@ textarea:focus {
 }
 .rle_bottompadder100{
 	padding-bottom:100px;
+}
+
+.rle_btn_wrapper{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.rle_btn{
+	display:inline-block;
+	height:50px;
+	line-height:48px;
+	width:auto;
+	padding:0px 25px;
+	border:2px solid #00aeef;
+	color:#ffffff;
+	background-color:#00aeef;
+	border-radius:3px;
+	text-transform:uppercase;
+	text-decoration:none;
+	position:relative;
+	z-index:1;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.rle_btn:after{
+	content:"";
+	position:absolute;
+	background-color: rgb(158, 158, 158);
+	top:0;
+	left:100%;
+	right:100%;
+	bottom:0;
+	z-index:-1;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.rle_btn:hover:after{
+	right:0;
+	left:0;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.rle_btn:hover{
+	color:#ffffff;
+	text-decoration:none;
+	border:2px solid #00aeef;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
 }
