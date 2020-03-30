@@ -1,5 +1,4 @@
 import {Component, NgModule, OnInit} from '@angular/core';
-import {BannerComponent} from '..';
 
 @Component({
   selector: 'app-footer',
