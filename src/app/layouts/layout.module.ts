@@ -3,10 +3,12 @@ import {BannerModule, FooterModule, HeaderModule} from '../shared/components';
 import { HomeComponent } from './pages/home/home.component';
 import {SearchBoxModule} from '../shared/components/search-box/search-box.component';
 import {PropertyBoxModule} from '../shared/components/property-box/property-box.component';
+import {PropertyListComponent} from './pages/property-list/property-list.component';
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    PropertyListComponent
   ],
   imports: [
     HeaderModule,
@@ -16,7 +18,8 @@ import {PropertyBoxModule} from '../shared/components/property-box/property-box.
     FooterModule
   ],
   exports: [
-    HomeComponent
+    HomeComponent,
+    PropertyListComponent
   ]
 })
 export class LayoutModule { }
