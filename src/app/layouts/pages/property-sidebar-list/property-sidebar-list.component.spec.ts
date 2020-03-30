@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { PropertyListComponent } from './property-list.component';
+import { PropertySidebarListComponent } from './property-sidebar-list.component';
 
-describe('PropertyListComponent', () => {
-  let component: PropertyListComponent;
-  let fixture: ComponentFixture<PropertyListComponent>;
+describe('PropertySidebarListComponent', () => {
+  let component: PropertySidebarListComponent;
+  let fixture: ComponentFixture<PropertySidebarListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PropertyListComponent ]
+      declarations: [ PropertySidebarListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PropertyListComponent);
+    fixture = TestBed.createComponent(PropertySidebarListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
