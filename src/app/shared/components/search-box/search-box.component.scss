@@ -1,0 +1,266 @@
+.app-search-box {
+  float:left;
+	width:100%;
+	background-color:transparent;
+}
+.rle_searchform_wrapper{
+	float:left;
+	width:100%;
+	background-color:#f7f8f9;
+}
+.rle_searchform_tabs{
+	float:left;
+	width:100%;
+  margin-top: -140px;
+}
+
+.rle_searchform_tabs .tab-content{
+	float:left;
+	width:100%;
+    background-color:#ffffff;
+	-webkit-box-shadow: 0px -1px 30px -10px #000000;
+	-moz-box-shadow: 0px -1px 30px -10px #000000;
+	-o-box-shadow: 0px -1px 30px -10px #000000;
+	-ms-box-shadow: 0px -1px 30px -10px #000000;
+	box-shadow: 0px -1px 30px -10px #000000;
+}
+.rle_searchform_tabs .nav-tabs {
+    border-bottom: 0px solid #ddd;
+}
+.rle_searchform_tabs ul.nav-tabs {
+    border-bottom: 0px solid #ddd;
+}
+.rle_searchform_tabs ul.nav-tabs > li{
+    margin-bottom: 0px;
+}
+.rle_searchform_tabs ul.nav-tabs > li > a {
+	text-transform:capitalize;
+	color:#ffffff;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+	font-size:16px;
+	padding:13px 40px;
+}
+.rle_searchform_tabs ul.nav > li > a:hover, .rle_searchform_tabs ul.nav > li > a:focus {
+    text-decoration: none;
+    background-color: #f4a42b;
+	border-color: transparent;
+}
+.rle_searchform_tabs ul.nav-tabs > li.active > a, .rle_searchform_tabs ul.nav-tabs > li.active > a:hover, .rle_searchform_tabs ul.nav-tabs > li.active > a:focus {
+    color: #ffffff;
+    border: 1px solid #f4a42b;;
+    background-color: #f4a42b;
+}
+.rle_searchform_box{
+	float:left;
+	width:100%;
+	padding:30px 0px 0px 20px;
+}
+.rle_searchform_box .ui-widget.ui-widget-content {
+    border: 0px;
+}
+.rle_searchform_box .ui-widget-content {
+    background: #00aeef;
+}
+.rle_searchform_box .ui-corner-all{
+	border-radius:100px;
+}
+.rle_searchform_box .ui-slider-horizontal {
+    height: 4px;
+}
+.rle_searchform_box .ui-slider-horizontal .ui-slider-handle {
+    top: -6px;
+}
+.rle_searchform_box .ui-slider .ui-slider-handle {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.rle_searchform_box .ui-state-default, .rle_searchform_box .ui-widget-content .ui-state-default, .rle_searchform_box .ui-widget-header .ui-state-default, .rle_searchform_box .ui-button, html .rle_searchform_box .ui-button.ui-state-disabled:hover, html .rle_searchform_box .ui-button.ui-state-disabled:active {
+    border: 1px solid #e1e1e1;
+    background: #ffffff;
+}
+.rle_searchform_box .ui-state-hover,
+.rle_searchform_box .ui-widget-content .ui-state-hover,
+.rle_searchform_box .ui-widget-header .ui-state-hover,
+.rle_searchform_box .ui-state-focus,
+.rle_searchform_box .ui-widget-content .ui-state-focus,
+.rle_searchform_box .ui-widget-header .ui-state-focus,
+.rle_searchform_box .ui-button:hover,
+.rle_searchform_box .ui-button:focus {
+	border: 1px solid #e1e1e1;
+	background: #ffffff;
+}
+.rle_searchform_box .ui-widget-header {
+    border: 1px solid #00aeef;
+    background: #00aeef;
+}
+.rle_searchform_box input, .rle_searchform_box select{
+	float:left;
+	width:100%;
+	padding:0px 15px;
+	height:45px;
+	border-radius:3px;
+	border:1px solid #e1e1e1;
+	margin-bottom: 30px;
+}
+
+.rle_searchform_box label{
+	font-weight:normal;
+	color:#888888;
+}
+.rle_searchform_tabs.style_3 .rle_btn{
+	float:left;
+	width:100%;
+    height: 45px;
+    line-height: 43px;
+}
+.rle_searchform_btn{
+    float: left;
+    width: 100%;
+    background-color: #00aeef;
+    text-align: center;
+    padding: 50px 0px;
+	cursor:pointer;
+}
+.rle_searchform_btn i, .rle_searchform_btn p{
+	float:left;
+	width:100%;
+	color:#ffffff;
+	text-transform:uppercase;
+	font-size:16px;
+	margin-bottom:0px;
+}
+.rle_searchform_btn p{
+	font-weight:bold;
+}
+.rle_searchform_btn img{
+	margin-bottom:10px;
+}
+
+.rle_banner_tabs{
+	float:left;
+	width:100%;
+	margin-top:150px;
+	padding:50px;
+	background-color:#ffffff;
+}
+.rle_banner_tabs_infobox{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.rle_banner_tabs_infobox h1{
+	float:left;
+	width:100%;
+	margin-top:0px;
+	font-size:48px;
+	font-weight:600;
+	text-transform:capitalize;
+}
+.rle_banner_tabs_infobox p{
+	float:left;
+	width:100%;
+	font-size:24px;
+	text-transform:capitalize;
+}
+.rle_banner_tabs_infobox ul{
+	float:left;
+	width:100%;
+	margin:20px 0px 40px 0px;
+	padding:30px 0px 0px 0px;
+	position:relative;
+}
+.rle_banner_tabs_infobox ul:after{
+	content:"";
+	position:absolute;
+	background-color:#e1e1e1;
+	height:1px;
+	width:130px;
+	top:0px;
+	left:0px;
+}
+.rle_banner_tabs_infobox ul li{
+	list-style:none;
+	float:left;
+	width:auto;
+	margin-right:15px;
+}
+.rle_banner_tabs_infobox ul li p{
+	float:left;
+	width:100%;
+	margin:0px;
+	font-size:36px;
+	color:#303030;
+    line-height: 32px;
+	text-transform:capitalize;
+}
+.rle_banner_tabs_infobox ul li span{
+	float:left;
+	width:100%;
+	font-size:18px;
+	text-transform:capitalize;
+}
+.rle_banner_tabs_infobox .rle_price_box{
+	position: absolute;
+    top: 25%;
+    right: 0px;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    padding: 5px;
+    background-color: #f4a42b;
+	text-align:center;
+}
+.rle_banner_tabs_infobox .rle_price_box .rle_price_box_info{
+    float: left;
+    width: 100%;
+    border: 2px dashed #ffffff;
+    height: 100%;
+    border-radius: 100%;
+    padding-top: 50px;
+}
+.rle_banner_tabs_infobox .rle_price_box .rle_price_box_info h1{
+    float: left;
+    width: 100%;
+	font-size:30px;
+	color:#ffffff;
+	margin:0px;
+}
+.rle_banner_tabs_infobox .rle_price_box .rle_price_box_info p{
+	float: left;
+    width: 100%;
+	font-size:16px;
+	color:#ffffff;
+	text-transform:uppercase;
+}
+
+.rle_banner_tabslist_info{
+    display: inline-block;
+    width: 100%;
+}
+.rle_banner_tabslist_info span{
+    float:left;
+    width: 40px;
+	color:#ffffff;
+	font-size:30px;
+}
+.rle_banner_tabslist_info_box {
+	float:left;
+	width:calc(100% - 40px);
+	border-left:1px solid #ffffff;
+	padding-left:20px;
+}
+.rle_banner_tabslist_info_box h4{
+    display: inline-block;
+    width: 100%;
+	font-size:20px;
+	color:#ffffff;
+	margin:0px;
+}
+.rle_banner_tabslist_info_box p{
+    display: inline-block;
+    width: 100%;
+	color:#ffffff;
+	margin:0px;
+}
